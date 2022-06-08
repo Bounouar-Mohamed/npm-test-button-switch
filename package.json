@@ -1,13 +1,17 @@
 {
-  "name": "npm-test",
-  "version": "0.1.1",
-  "private": true,
+  "name": "npm-test-button-switch",
+  "version": "0.1.4",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "i18next": "^21.8.8",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-i18next": "^11.17.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Il s'agit d'un bouton qui vous permettra de traduire votre site entre deux langues différentes.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Bounouar Mohamed",
+  "license": "ISC"
 }
